@@ -40,5 +40,9 @@ public class Library {
             System.out.println(key+" "+values);
         });
     }
+
+    public Set<LibraryItem> getCheckedOutItems() {
+        return checkedOutItems;
+    }
 }
 

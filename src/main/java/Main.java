@@ -12,5 +12,6 @@ public class Main {
         myLib.listCatalog();
         System.out.println(myLib.checkOutItem("DVD1"));
        myLib.listCatalog();
+        System.out.println("la mia lista del checkout: "+myLib.getCheckedOutItems());
     }
 }
